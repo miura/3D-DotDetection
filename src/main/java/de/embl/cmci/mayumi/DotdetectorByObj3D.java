@@ -1,4 +1,4 @@
-package emblcmci.mayumi;
+package de.embl.cmci.mayumi;
 
 import java.util.Vector;
 

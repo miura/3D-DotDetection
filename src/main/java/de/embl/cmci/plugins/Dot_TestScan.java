@@ -1,4 +1,6 @@
-import emblcmci.mayumi.DotdetectorByObj3D;
+package de.embl.cmci.plugins;
+
+import de.embl.cmci.mayumi.DotdetectorByObj3D;
 import ij.ImagePlus;
 import ij.WindowManager;
 import ij.plugin.PlugIn;
