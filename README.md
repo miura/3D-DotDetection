@@ -1,6 +1,8 @@
 #3D Dot Detector Plugin for ImageJ
 
-## Requirements
+Kota Miura (<miura@embl.de>)
+
+## Installation
 
 ### Fiji
 
@@ -24,7 +26,11 @@ Please download the MosaicSuit ImageJ plugin from the URL below and install it t
 
 Please read their conditions and terms, and if you use this tool in your paper, please also site the following paper. 
 
->I. F. Sbalzarini and P. Koumoutsakos. Feature Point Tracking and Trajectory Analysis for Video Imaging in Cell Biology, Journal of Structural Biology 151(2):182-195, 2005.
+```
+I. F. Sbalzarini and P. Koumoutsakos. 
+Feature Point Tracking and Trajectory Analysis for Video Imaging in Cell Biology
+Journal of Structural Biology 151(2):182-195, 2005.
+```
 
 ### To Compile
 
@@ -34,13 +40,14 @@ Install the jar file to your local Maven repository by following command:
 mvn install:install-file -Dfile=/PATH/TO/Mosaic_ToolSuite.jar -DgroupId=de.mpi-cbg.mosaic  -DartifactId=mosaicSuit -Dversion=1.0.0 -Dpackaging=jar
 ```
 
-Then compile as usual. 
+Then compile java files as usual. 
 
 ```
 mvn compile
 ```
 
+##Usage
 
-## Acknowledgement
+## Acknowledgements
 
 This plugin uses FeaturePoint detection library from MosaicSuit plugin developed by Mosaic group (Ivo Sbalzarini, CBG-MPI, Dresden). We thank their great implementation and offereing them as an opne source library! 
