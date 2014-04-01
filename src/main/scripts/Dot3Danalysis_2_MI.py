@@ -123,7 +123,7 @@ thread = thr.currentThread()
 original_name = thread.getName()
 thread.setName("Run$_my_batch_process")
 Macro.setOptions(thr.currentThread(), options)
-pt = IJ.runPlugIn(imp, "emblcmci.pt3d.Dot_Detector_3D", "")
+pt = IJ.runPlugIn(imp, "de.embl.cmci.pt3d.Dot_Detector_3D", "")
 
 impdimA = imp.getDimensions()
 ims = imp.createEmptyStack()
