@@ -12,11 +12,11 @@ Please download and install Fiji.
 
 ### This plugin
 
-Install jar file `target/DotDetect3D-2.0.0.jar` as a plugin for ImageJ / Fiji. This plugin analyzes a 3D image stack and lists dots in results table. 
+Install jar file `target/Dot_Detect3D-2.0.0.jar` as a plugin for ImageJ / Fiji. This plugin analyzes a 3D image stack and lists dots in results table. 
 
 The command is located at
 
-[Plugins > EMBLTools > Mayumi > Dot Detect 3D]
+[Plugins > EMBLTools > Mayumi > Dot Detect 3D...]
 
 
 ### Dependencies
@@ -53,7 +53,7 @@ mvn compile
 
 ##Usage
 
-The plugin is executable from GUI, but major usage has been to use it from Jython script.
+The plugin is executable from GUI, but major usage has been to use it from a Jython script.
 
 ### Script
 

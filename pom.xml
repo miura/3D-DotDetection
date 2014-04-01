@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>de.embl.cmci</groupId>
-	<artifactId>DotDetect3D</artifactId>
+	<artifactId>Dot_Detect3D</artifactId>
   <version>2.0.0</version>
 
 	<name>plugins/Dot_Detector3D</name>
